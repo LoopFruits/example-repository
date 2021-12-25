@@ -2,3 +2,9 @@ body {
     background: blue;
     text-align: center;
 }
+
+div {
+    border: 1px solid red;
+    padding: 6px;
+    min-height: 12px; 
+}

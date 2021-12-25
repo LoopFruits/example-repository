@@ -8,3 +8,10 @@ p.textContent = "text added by jacascript will be followed by *";
 
 document.querySelector("body").appendChild(p);
 
+//click alert
+
+const input = document.getElementById('input');
+input.addEventListener('click', function() {
+  alert('jejeje, that tickles!');
+});
+
